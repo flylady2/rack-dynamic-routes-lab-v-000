@@ -21,7 +21,7 @@ class Application
     end
 
 
-  
+
   end
 
 
