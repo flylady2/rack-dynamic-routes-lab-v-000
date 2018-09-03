@@ -8,7 +8,7 @@ class Application
     req = Rack::Request.new(env)
     #binding.pry
 
-    if req.path.match(/testing/) 
+    if req.path.match(/testing/)
       resp.write "Route not found"
       resp.status = 404
     elsif
